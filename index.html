@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 768px)" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <section class="header">
+        <h1 class="header__title">Learn to code by watching others</h1>
+        <p class="header__sub-title">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="main-product">
+        <div class="main-product__try">
+          <p class="main-product__try-text">
+            <strong>Try it free 7 days</strong> then $20/mo. thereafter
+          </p>
+        </div>
+        <form action="" class="main-product__form">
+          <div class="main-product__input-container">
+            <input
+              class="main-product__input"
+              type="text"
+              placeholder="First Name"
+              id="firstName"
+            />
+            <span class="warning-icon"></span>
+            <span class="warning-text"></span>
+          </div>
+          <div class="main-product__input-container">
+            <input
+              class="main-product__input"
+              type="text"
+              placeholder="Last Name"
+              id="lastName"
+            />
+            <span class="warning-icon"></span>
+            <span class="warning-text"></span>
+          </div>
+          <div class="main-product__input-container">
+            <input
+              class="main-product__input"
+              type="email"
+              name=""
+              id="email"
+              placeholder="Email Address"
+            />
+            <span class="warning-icon"></span>
+            <span class="warning-text"></span>
+          </div>
+          <div class="main-product__input-container">
+            <input
+              class="main-product__input"
+              type="password"
+              name=""
+              id="password"
+              placeholder="Password"
+            />
+            <span class="warning-icon"></span>
+            <span class="warning-text"></span>
+          </div>
+          <button type="button" class="main-product__button">
+            Claim your free trial
+          </button>
+          <p class="main-product__disclaimer">
+            By clicking the button, you are agreeing to our
+            <strong>Terms and Services</strong>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Nicolas Joel Marinelli</a>.
+      </p>
+    </footer>
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
